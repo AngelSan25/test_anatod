@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family:monospace;
+    font-size: 14px;
+    align-items:flex-start;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+/*Estilo de Index.php*/
+
+.homeIndex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agregarCliente{
+    flex: 2;
+    padding: 25px;
+    background-color: floralwhite;
+    margin: 20px;
+    height: 150px;
+}
+
+.botonEnviar{
+    margin-top: 10px;
+}
+
+.cambiarCliente{
+    flex: 2;
+    padding: 25px;
+    background-color: floralwhite;
+    margin: 20px;
+    height: 150px;
+}
+
+.botonCambios{
+    margin-top: 10px;
+}
+
+.mostrarClientes{
+    flex: 3;
+    padding: 25px;
+    background-color: floralwhite;
+    margin: 20px;
+}
+
+.mostrarProvincias{
+    flex: 3;
+    padding: 25px;
+    background-color: floralwhite;
+    margin: 20px;
+    
+}
+
+/*Estilo de registrarCliente.php*/
+
+.homeRegistrarCliente{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: floralwhite;
+}
+
+.msg1RegistrarCliente{
+    margin-top: 10px;
+}
+
+.msg2RegistrarCliente{
+    margin-top: 10px;
+}
+
+.botonVolverRegCliente{
+    margin-top: 10px;
+}
